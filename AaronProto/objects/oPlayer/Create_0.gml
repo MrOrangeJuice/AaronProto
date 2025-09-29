@@ -5,7 +5,8 @@ enum playerState
 {
 	Attack,
 	Dodge,
-	Idle
+	Idle,
+	Parry
 }
 
 stateVar = playerState.Idle;

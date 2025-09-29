@@ -5,7 +5,8 @@ alarm[0] = room_speed * random_range(4,6);
 enum enemyState
 {
 	Attack,
-	Idle
+	Idle,
+	Parried
 }
 
 stateVar = enemyState.Idle;

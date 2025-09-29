@@ -7,3 +7,8 @@ if(stateVar == enemyState.Attack)
 	canHurt = false;
 	oPlayer.hurtThisAttack = false;
 }
+
+if(stateVar == enemyState.Parried)
+{
+	stateVar = enemyState.Idle;
+}

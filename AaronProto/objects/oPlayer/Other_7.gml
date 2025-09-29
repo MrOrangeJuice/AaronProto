@@ -4,3 +4,8 @@ if(stateVar == playerState.Attack)
 {
 	stateVar = playerState.Idle;
 }
+
+if(stateVar == playerState.Parry)
+{
+	stateVar = playerState.Idle;
+}
