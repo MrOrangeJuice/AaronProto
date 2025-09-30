@@ -51,6 +51,7 @@
     {"id":{"name":"sPlayerAttack","path":"sprites/sPlayerAttack/sPlayerAttack.yy",},},
     {"id":{"name":"sPlayerDodge","path":"sprites/sPlayerDodge/sPlayerDodge.yy",},},
     {"id":{"name":"sPlayerParry","path":"sprites/sPlayerParry/sPlayerParry.yy",},},
+    {"id":{"name":"Test1","path":"sprites/Test1/Test1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
