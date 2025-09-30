@@ -9,3 +9,8 @@ if(stateVar == playerState.Parry)
 {
 	stateVar = playerState.Idle;
 }
+
+if(stateVar == playerState.Healing)
+{
+	stateVar = playerState.Idle;
+}

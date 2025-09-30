@@ -6,7 +6,8 @@ enum playerState
 	Attack,
 	Dodge,
 	Idle,
-	Parry
+	Parry,
+	Healing
 }
 
 stateVar = playerState.Idle;

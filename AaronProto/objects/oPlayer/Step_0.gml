@@ -32,11 +32,22 @@ if(!global.hitStop)
 	
 	}
 
-	if((stateVar == playerState.Idle || stateVar == playerState.Attack) && oEnemy.canHurt)
+	if(keyboard_check_pressed(ord("R")))
+	{
+		if(stateVar == playerState.Idle)	
+		{
+			stateVar = playerState.Healing;
+			alarm[1] = room_speed * 0.5;
+		}
+	}
+
+	if((stateVar == playerState.Idle || stateVar == playerState.Attack || stateVar == playerState.Healing) && oEnemy.canHurt)
 	{
 		if(!hurtThisAttack)
 		{
-			oGame.playerHealth--;
+			oGame.playerHealth-=2;
+			alarm[1] = -1;
+			stateVar = playerState.Idle;
 			hurtThisAttack = true;
 		}
 	}
@@ -70,5 +81,7 @@ switch(stateVar)
 	case playerState.Parry:
 		sprite_index = sPlayerParry;
 		break;
-	
+	case playerState.Healing:
+		sprite_index = HealingTest;
+		break;
 }

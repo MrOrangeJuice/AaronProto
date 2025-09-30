@@ -43,6 +43,7 @@
     {"id":{"name":"snd_Attack","path":"sounds/snd_Attack/snd_Attack.yy",},},
     {"id":{"name":"snd_EnemyAttack","path":"sounds/snd_EnemyAttack/snd_EnemyAttack.yy",},},
     {"id":{"name":"snd_Klang","path":"sounds/snd_Klang/snd_Klang.yy",},},
+    {"id":{"name":"HealingTest","path":"sprites/HealingTest/HealingTest.yy",},},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"sEnemyAttack","path":"sprites/sEnemyAttack/sEnemyAttack.yy",},},
     {"id":{"name":"sEnemyHit","path":"sprites/sEnemyHit/sEnemyHit.yy",},},
